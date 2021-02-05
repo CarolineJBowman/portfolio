@@ -1,7 +1,7 @@
 * {
   background-color: rgb(120,205,124);
-  font-family: Helvetica, sans-serif;
-  *color: rgb(42, 42, 42);
+  font-family: 'Lemonada', cursive;
+  color: rgb(42, 42, 42);
 }
 
 h1 {
@@ -14,7 +14,6 @@ p {
   color: rgb (35, 35, 35);
   font-weight: lighter;
   font-style: italic;
-  border: 5px solid white;
 }
 
 .important {
@@ -35,7 +34,6 @@ a:hover {
 
 aside {
   color: black;
-  font-family: "Comic Sans";
   font-weight: 500;
   font-style: oblique;
   border-width: thick;
@@ -47,11 +45,43 @@ aside {
 }
 
 h6 {
-  font-size: 300%;
+  font-size: 150%;
   font-weight: bolder;
-  margin: 0%; 
+  margin: 15%;
 }
 
 footer {
   font-style: italic;
+}
+
+.fa-passport {
+  color: white;
+  width: 25px;
+}
+
+.main {
+  border: .5px dashed grey;
+  width: 100%;
+
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: stretch;
+
+}
+
+.projects-header {
+  width: 100%;
+}
+
+.projects {
+  width: 25%;
+  border-width: thick;
+  border-style: groove;
+}
+
+.sidebar {
+  width: 20%;
+
 }
