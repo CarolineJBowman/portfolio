@@ -1,0 +1,57 @@
+* {
+  background-color: rgb(120,205,124);
+  font-family: Helvetica, sans-serif;
+  *color: rgb(42, 42, 42);
+}
+
+h1 {
+  font-size: 200%;
+  font-style: italic;
+  font-weight: bolder;
+}
+
+p {
+  color: rgb (35, 35, 35);
+  font-weight: lighter;
+  font-style: italic;
+  border: 5px solid white;
+}
+
+.important {
+  border-width: 2px;
+  border-style: dotted;
+  border-color: grey;
+}
+
+a {
+  color: white;
+}
+
+a:hover {
+  color: rgb(200,200,200);
+  font-weight: lighter;
+  font-style: italic;
+}
+
+aside {
+  color: black;
+  font-family: "Comic Sans";
+  font-weight: 500;
+  font-style: oblique;
+  border-width: thick;
+  border-style: groove;
+  border-left-color: red;
+  border-top-color: orange;
+  border-right-color: yellow;
+  border-bottom-color: green;
+}
+
+h6 {
+  font-size: 300%;
+  font-weight: bolder;
+  margin: 0%; 
+}
+
+footer {
+  font-style: italic;
+}
