@@ -85,3 +85,25 @@ footer {
   width: 20%;
 
 }
+
+/* Lesson 6 Assignment */
+li:nth-child(odd) {
+  font-weight: bolder;
+  color: grey;
+}
+
+li:nth-child(even) {
+  font-weight: bold;
+  color: white;
+}
+
+a {
+  color: inherit;
+  background-color: inherit;
+  transition: all 1s ease;
+}
+
+a:hover, a:focus {
+  color: white;
+  background-color: grey;
+}
