@@ -11,7 +11,7 @@ h1 {
 }
 
 p {
-  color: rgb (35, 35, 35);
+  color: rgb(35, 35, 35);
   font-weight: lighter;
   font-style: italic;
 }
@@ -106,4 +106,39 @@ a {
 a:hover, a:focus {
   color: white;
   background-color: grey;
+}
+
+/* Lesson 9 Assignment */
+button, input, select, textarea {
+  font-family: inherit;
+  font-size: 100%;
+  box-sizing: border-box;
+  display: block;
+  margin: 1rem;
+}
+
+input[type=submit] {
+  width: 25%;
+  background-color: rgb(200,200,200);
+}
+
+input[type=password]:focus {
+  background-color: red;
+  outline: none;
+}
+
+input[type=text]:focus {
+  background-color: rgb(200,200,200);
+}
+
+input {
+  border-radius: 1.5px;
+}
+
+fieldset {
+  border: none;
+}
+
+fieldset input {
+  display: inline;
 }
